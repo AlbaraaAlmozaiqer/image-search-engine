@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ImageBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="home">
+      <header>
+        <h1>Images<span>Box.</span></h1>
+        <ul id="nav">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#images">Images</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+          <i class='bx bx-menu'></i>
+      </header>
+      <div class="home-content">
+        <div class="home-text">
+          <h1>Welcome To <span>ImageBox</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            asperiores voluptas magnam laborum assumenda corrupti, sed amet at
+            placeat neque reprehenderit odit consequatur ipsa omnis id sapiente
+            iusto delectus rem?
+          </p>
+          <button><a href="#images">Let's Go</a></button>
+        </div>
+        <div class="home-img">
+          <img src="img/Image upload-amico.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="images">
+      <h1><span>Image</span> Search Engine</h1>
+      <form id="search-form" action="">
+        <input type="text" id="search-box" placeholder="Search anything here" />
+        <button id="search-btn">Search</button>
+      </form>
+      <div id="show-result"></div>
+      <button id="show-more">Show more</button>
+    </section>
+
+    <section id="contact">
+      <form id="contact-form" action="">
+        <h1>Contact <span>Me</span></h1>
+
+        <div class="username">
+          <label for="">Username</label><br />
+          <input type="text" id="name-input" />
+        </div>
+        <div class="email">
+          <label for="">Email</label><br />
+          <input type="email" id="email-input" required />
+        </div>
+        <textarea
+          name=""
+          id="textarea"
+          placeholder="Write your message here..."
+        ></textarea>
+        <input type="submit" value="Send" />
+      </form>
+      <div class="contact-img">
+        <img src="img/Contact us-amico.png" alt="" />
+      </div>
+    </section>
+    <footer>
+      <p>By AlbaraCodes</p>
+    </footer>
+
+    <section>
+      <ul id="nav-2">
+        <i class='bx bx-x'></i>
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#images">Images</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
